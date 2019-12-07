@@ -1,2 +1,2 @@
 # cv
-Neetam Limbu - CV
+Online CV using HTML5, CSS, JQuery
