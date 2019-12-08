@@ -15,7 +15,9 @@ h1, h2, h3, h4, h5, h6{
 
 hr{
     background-color: white;
-    border-style: none;
+    border-style: dotted;
+    height: 2px;
+    width: 10%;
 }
 
 ul
