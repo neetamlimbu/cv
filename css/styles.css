@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5, h6{
 
 hr{
     border-style: dotted;
-    border-width: 10px;
 }
 
 ul
@@ -23,15 +22,15 @@ list-style-type: none;
     background-color: #d3f4ff;
 }
 
-.experience{
-
+.experience {
+    background-color: #b2dffb;
 }
 
-.education{
-
+.education {
+    background-color: #e7a4e4;
 }
 
 
-.skills{
-
+.skills {
+    background-color: #ffc55c;
 }
