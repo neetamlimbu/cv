@@ -70,6 +70,16 @@ ul {
     text-decoration: none;
 }
 
-.cartoon {
-    text-align: center;
+.clouds{
+    display:inline-block;
+}
+
+.cloud-left{
+    text-align:left;
+    width: 100px;
+}
+
+.cloud-right {
+    text-align: right;
+    width: 100px;
 }
