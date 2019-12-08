@@ -70,17 +70,14 @@ ul {
     text-decoration: none;
 }
 
-.clouds{
-    display:inline-block;
-    position: relative;
-    margin: 0 auto;
-}
 
 .cloud{
-    width: 100px;
+    display:inline-block;
+    width: 50%;
 }
 
 .mountain{
     margin: 0 auto;
     width: 50%;
+    display:block;
 }
