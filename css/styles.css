@@ -72,15 +72,10 @@ ul {
 
 .clouds{
     display:inline-block;
+    text-align:center;
 }
 
-.cloud-left{
-    text-align:left;
-    width: 100px;
-}
-
-.cloud-right {
-    text-align: right;
+.cloud{
     width: 100px;
 }
 
