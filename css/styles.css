@@ -28,9 +28,7 @@ ul {
 }
 
 .container {
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 10px 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -67,17 +65,16 @@ ul {
 
 .location {
     font-family: 'Jim Nightshade', cursive;
-    text-decoration: none;
 }
 
 
 .cloud{
     display:inline-block;
-    width: 50%;
+    width: 10%;
 }
 
 .mountain{
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
     display:block;
 }
