@@ -34,3 +34,7 @@ list-style-type: none;
 .skills {
     background-color: #ffc55c;
 }
+
+.software{
+    text-decoration: underline;
+}
