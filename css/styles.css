@@ -72,13 +72,14 @@ ul {
 
 .clouds{
     display:inline-block;
-    text-align:center;
+    margin: 0 auto;
 }
 
 .cloud{
-    width: 100px;
+    width: 50%;
 }
 
 .mountain{
-    text-align: center;
+    margin: 0 auto;
+    width: 50%;
 }
