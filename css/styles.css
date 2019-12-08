@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    background-color: #d3f4ff;
 }
 
 
@@ -22,20 +23,20 @@ list-style-type: none;
 }
 
 .intro {
-    background-color: #d3f4ff;
+  
 }
 
 .experience {
-    background-color: #b2dffb;
+    
 }
 
 .education {
-    background-color: #e7a4e4;
+   
 }
 
 
 .skills {
-    background-color: #ffc55c;
+   
 }
 
 .software{
