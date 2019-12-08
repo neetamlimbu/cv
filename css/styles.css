@@ -22,7 +22,7 @@ list-style-type: none;
     border-radius: 50%;
 }
 
-.links{
+.links a{
     float: right;
     display:inline-block;
     text-decoration:none;
