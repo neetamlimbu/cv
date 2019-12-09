@@ -18,7 +18,7 @@ hr {
 
 h1 {
     width: 20%;
-    font-size: 5.625em;
+    font-size: 4em;
     margin: 0 auto;
     font-family: 'Sacramento', cursive;
 }
@@ -27,8 +27,12 @@ h4 {
     text-decoration: underline;
 }
 
-p{
-    line-height:2;
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -46,7 +50,7 @@ ul {
     padding-top: 20px;
 }
 
-.middle-container{
+.middle-container {
     margin: 100px 0;
 }
 
@@ -54,21 +58,11 @@ ul {
     margin: 100px 0;
 }
 
-.profile{
-
+.profile {
 }
 
 .profile-image {
     border-radius: 50%;
-}
-
-.links {
-    float: right;
-    display: inline-block;
-}
-
-.links a{
-  margin: 5px 5px;
 }
 
 .intro {
@@ -112,9 +106,9 @@ ul {
     background: -moz-linear-gradient(top, #11CDD4, #11999E);
 }
 
-.btn:hover {
-    background: linear-gradient(top, #30E3CB, #2BC4AD);
-    background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-    background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
-    background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-}
+    .btn:hover {
+        background: linear-gradient(top, #30E3CB, #2BC4AD);
+        background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+        background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+        background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    }
