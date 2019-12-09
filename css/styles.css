@@ -10,9 +10,10 @@ body {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: #EAF6F6;
     border-width: 5px;
     width: 3%;
+    margin: 100px auto;
 }
 
 h1 {
@@ -26,17 +27,30 @@ h4 {
     text-decoration: underline;
 }
 
+p{
+    line-height:2;
+}
+
 ul {
     list-style-type: none;
+}
+
+.cloud {
+    display: inline-block;
+    width: 10%;
 }
 
 .top-container {
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container {
     margin: 100px 0;
 }
 
@@ -58,18 +72,20 @@ ul {
 
 .intro {
     width: 30%;
+    margin: auto;
 }
 
 .experience {
-    text-align: left;
+    width: 70%;
 }
 
 .education {
-    text-align:left;
+    width: 50%;
 }
 
-
 .skills {
+    width: 50%;
+    margin: 100px auto;
 }
 
 .software {
@@ -80,14 +96,24 @@ ul {
     font-family: 'Jim Nightshade', cursive;
 }
 
-
-.cloud{
-    display:inline-block;
-    width: 10%;
+.btn {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #FFFFFF;
+    box-shadow: 1px 1px 1px #FFFFFF;
+    padding: 13px 23px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: linear-gradient(top, #11CDD4, #11999E);
+    background: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+    background: -moz-linear-gradient(top, #11CDD4, #11999E);
 }
 
-.mountain{
-    margin: 0 auto;
-    width: 30%;
-    display:block;
+.btn:hover {
+    background: linear-gradient(top, #30E3CB, #2BC4AD);
+    background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+    background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
 }
