@@ -1,30 +1,26 @@
 
+/* Common Section Start */
+
 body {
-    margin: 0;
-    color: #40514E;
-    text-align: center;
+    margin: 0;   
     font-family: 'Merriweather', serif;
 }
-
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #EAF6F6;
     border-width: 5px;
     width: 3%;
-    margin: 100px auto;
+    margin: 0 auto;
+    border-color: #ffc55c;
+    margin-bottom: 5px;
 }
 
 h1 {
     width: 20%;
-    font-size: 4em;
+    font-size: 3em;
     margin: 0 auto;
     font-family: 'Sacramento', cursive;
-}
-
-h4 {
-    text-decoration: underline;
 }
 
 p {
@@ -39,30 +35,50 @@ ul {
     list-style-type: none;
 }
 
-.cloud {
-    display: inline-block;
-    width: 10%;
-}
+/* Common Section End */
 
-.top-container {
+/* Header Section Start */
+
+.header {
+    text-align: center;
     background-color: #E4F9F5;
+    padding: 10px;
     position: relative;
-    padding-top: 20px;
 }
 
-.middle-container {
-    margin: 100px 0;
+.cloud1 {
+    width: 10%;
+    position: relative;
+    left: 160px;
+    top: 40px;
 }
 
-.bottom-container {
-    margin: 100px 0;
+.cloud2 {
+    width: 10%;
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+
+.clouds {
+    width: 10%;
+    position: relative;
+    top: 90px;
+    right: 22%;
 }
 
 .profile {
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px 0;
 }
 
 .profile-image {
     border-radius: 50%;
+}
+
+.software {
+    text-decoration: underline;
 }
 
 .intro {
@@ -70,45 +86,52 @@ ul {
     margin: auto;
 }
 
+/* Header Section End */
+
+/* Details Section Start */
+
+.details {
+    background-color: #f4f6f7;
+}
+
+.details h4 {
+    color: #27ae60;
+}
+
 .experience {
-    width: 70%;
+    margin: 0px 20px 0 50px;
+    padding-top: 5px;
+    width: 90%;
 }
 
 .education {
-    width: 50%;
+    margin: 0px 0 0 50px;
 }
 
 .skills {
-    width: 50%;
-    margin: 100px auto;
+    margin: 0 0 0 50px;
 }
 
-.software {
+.experience-title {
     text-decoration: underline;
 }
 
 .location {
-    font-family: 'Jim Nightshade', cursive;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-family: 'Sacramento', cursive;
 }
 
-.btn {
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    text-shadow: 1px 1px 0px #FFFFFF;
-    box-shadow: 1px 1px 1px #FFFFFF;
-    padding: 13px 23px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    background: linear-gradient(top, #11CDD4, #11999E);
-    background: -ms-linear-gradient(top, #11CDD4, #11999E);
-    background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
-    background: -moz-linear-gradient(top, #11CDD4, #11999E);
+.link {
+    color: #626567;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    margin: 0 15px;
+    z-index: 1;
 }
 
-    .btn:hover {
-        background: linear-gradient(top, #30E3CB, #2BC4AD);
-        background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-        background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
-        background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    .link:hover {
+        color: #ffc55c;
     }
