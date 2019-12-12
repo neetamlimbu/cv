@@ -35,6 +35,29 @@ ul {
     list-style-type: none;
 }
 
+.link {
+    color: #626567;
+    background-color: #f4f6f7;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    margin: 0 15px;
+    z-index: 1;
+    transition: transform .2s; /* Animation */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.link:hover {
+    color: #ffffff;
+    background-color: forestgreen;
+    text-decoration: underline;
+    text-decoration-color: forestgreen;
+    transform: scale(1.05);
+}
+
 /* Common Section End */
 
 /* Header Section Start */
@@ -99,17 +122,17 @@ ul {
 }
 
 .experience {
-    margin: 0px 20px 0 50px;
+    margin: 0px 20px 0 60px;
     padding-top: 5px;
     width: 90%;
 }
 
 .education {
-    margin: 0px 0 0 50px;
+    margin: 0px 0 0 60px;
 }
 
 .skills {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 60px;
 }
 
 .experience-title {
@@ -122,16 +145,20 @@ ul {
     font-family: 'Sacramento', cursive;
 }
 
-.link {
-    color: #626567;
-    display: inline-block;
-    position: relative;
-    bottom: 50px;
-    left: 70px;
-    margin: 0 15px;
-    z-index: 1;
+/* Details Section End */
+
+/* Footer */
+
+.footer {
+    color: forestgreen;
+    background-color: #E4F9F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
 }
 
-    .link:hover {
-        color: #ffc55c;
-    }
+.name {
+    font-size: 1.5em;
+    font-family: 'Sacramento', cursive;
+}
