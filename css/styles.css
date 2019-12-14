@@ -125,14 +125,21 @@ ul {
     margin: 0px 20px 0 60px;
     padding-top: 5px;
     width: 90%;
+    text-align: left;
 }
 
 .education {
     margin: 0px 0 0 60px;
+    text-align: left;
 }
 
 .skills {
     margin: 0 0 0 60px;
+    text-align: left;
+}
+
+.skills-table {
+    font-size: 1em;
 }
 
 .experience-title {
