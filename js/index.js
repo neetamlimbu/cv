@@ -1,0 +1,3 @@
+function riseandshine() {
+    document.
+}
